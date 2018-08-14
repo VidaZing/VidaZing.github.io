@@ -1,4 +1,9 @@
+# Build Artifacts
 _site/
+build/
+logs/
+
+# Temporary Files
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
