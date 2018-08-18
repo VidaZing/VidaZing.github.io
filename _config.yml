@@ -7,7 +7,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Build Settings
-source: source
+# Cannot override per Github pages https://help.github.com/articles/configuring-jekyll/ 
+# source: source
 destination: build
 
 # Site settings
@@ -31,6 +32,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Analytics
 google_analytics: UA-123756940-1
